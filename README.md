@@ -1,5 +1,5 @@
-# MVPDemo主要作为练习MVP开发模式及收集一些平时用到的工具类
-## MVP开发模式简介
+## MVPDemo主要作为练习MVP开发模式及收集一些平时用到的工具类
+### MVP开发模式用法总结
 MVP(Mode View Presenter)是由mvc演变过来的
 M(Mode):业务逻辑和实体模型
 V(View):View通常来说是由Activity实现的，它会包含一个Presenter的引用，View要做的就只是在每次有接口调用的时候（比如按钮点击后）调用Presenter的法。
@@ -12,7 +12,7 @@ MVP项目一：登陆账号，返回登录结果
     2.View层：通过Presenter与View进行交互，需要定义一个接口（ILoginView）;有了接口就可以写ILoginView的实现类activity（MVPTestActivity），该activity中包含有，Presenter的实例对象
     3.Presenter层：作为Model和View之间的交互桥梁，在本例中执行的是登陆操作，然后去Model中执行登陆操作，最后将登陆结果返回给View;该类中包含有Model和View的引用。    
 ---
-## 收集常用的工具类
+### 收集常用的工具类
   日志，json格式转换，base64/md5/esc等加密解密，netTool网络检测，加载数据进度条，ManagerActivity,IntentSkip,DateTimePickDialogUtil
 ---
 [link](http://example.com).
