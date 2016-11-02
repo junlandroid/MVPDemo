@@ -24,4 +24,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'org.apache.httpcomponents.client5:httpclient5-parent:5.0-alpha1'
 }
