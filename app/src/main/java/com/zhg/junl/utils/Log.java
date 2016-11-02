@@ -4,12 +4,8 @@ package com.zhg.junl.utils;
  * 当前类注释:重写系统日志管理类
  * 使用方法:还是和平时Log.v(key,value)这样使用，需要导入当前类,该类会打印比系统更多的日志信息,
  * 例如:类名称,当前运行的方法,行数,和日志信息
- * 项目名：FastDev4Android
- * 包名：com.chinaztt.fda.utils
- * 作者：江清清 on 15/10/22 09:35
- * 邮箱：jiangqqlmj@163.com
- * QQ： 781931404
- * 公司：江苏中天科技软件技术有限公司
+ * @author junl
+ * @since 2016-11-1
  */
 public class Log {
     public static boolean mIsShow=true;
