@@ -11,7 +11,7 @@ P(Presenter):主要作为沟通View和Model的桥梁，它从Model层检索数�
     2.View层：通过Presenter与View进行交互，需要定义一个接口（ILoginView）;有了接口就可以写ILoginView的实现类activity（MVPTestActivity），该activity中包含有，Presenter的实例对象
     3.Presenter层：作为Model和View之间的交互桥梁，在本例中执行的是登陆操作，然后去Model中执行登陆操作，最后将登陆结果返回给View;该类中包含有Model和View的引用。
 ##### MVP项目二：
-  分析：RCVDetailsActivity（M） implement RCVDetailsView（V）, 重写replyStatusUpdateCallBack 跟新UI，M 持有RCVDetailsPresenter（P） 引用presenter，用来
+  分析：RCVDetailsActivity（M） implement RCVDetailsView（V）, 重写replyStatusUpdateCallBack 更新UI，M 持有RCVDetailsPresenter（P） 引用presenter，用来处理item的点击事件
 
 
 
