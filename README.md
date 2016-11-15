@@ -61,5 +61,3 @@ onNewIntent和PendingIntent都有延迟的意思。
 
 
 
-
-
