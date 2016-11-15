@@ -21,3 +21,45 @@ P(Presenter):主要作为沟通View和Model的桥梁，它从Model层检索数�
 
 关于文件的路径保存com.baital.android.project.readKids.utils.AppFileDirManager，
 File操作工具类参考com.baital.android.project.readKids.utils.FileUtils
+
+
+### 收集常用基础知识
+1、UUID.randomUUID().toString()
+UUID.randomUUID().toString()是javaJDK提供的一个自动生成主键的方法。UUID(Universally Unique Identifier)全局唯一标识符,是指在一台机器上生成的数字，它保证对在同一时空中的所有机器都是唯一的，是由一个十六位的数字组成,表现出来的形式。
+2、在Android应用程序开发的时候，从一个Activity启动另一个Activity并传递一些数据到新的Activity上非常简单，但是当您需要让后台运行的Activity回到前台并传递一些数据可能就会存在一点点小问题。
+onNewIntent和PendingIntent都有延迟的意思。
+常见的案例[link](http://blog.csdn.net/lihenair/article/details/28892921).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
