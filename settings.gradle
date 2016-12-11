@@ -1,1 +1,1 @@
-include ':app', ':greeendaodemo', ':junlgenerator', ':DaoExample'
+include ':app', ':greeendaodemo', ':junlgenerator', ':DaoExample', ':treeview'
